@@ -1,4 +1,4 @@
-# dMoney API Automation with Newman
+# dMoney Newman 2026
 
 ## Project Summary
 
@@ -25,7 +25,7 @@ Requests pass data to each other through collection variables such as tokens, us
 ## Project Structure
 
 ```
-dmoney-newman-practise2026/
+dmoney-newman-2026-practise/
 ├── collection/
 │   └── dmoney-2026-postman-collection-part2   # Exported Postman collection (JSON)
 ├── Reports/                                   # HTML report is created here (git-ignored)
@@ -92,3 +92,9 @@ The collection stores its settings in **collection variables**. Change them in P
 | `customer_id`, `agent_id` | Saved from the response after a user is created |
 
 > **Note:** The API server must be running before you start the tests, or every request will fail.
+
+## Report
+
+A sample HTML report from a Newman run:
+
+<img width="722" alt="Newman htmlextra report" src="https://github.com/user-attachments/assets/08615905-f3d1-4faf-a44d-475eab5f05e9" />
