@@ -25,7 +25,7 @@ Requests pass data to each other through collection variables such as tokens, us
 ## Project Structure
 
 ```
-dmoney-newman-practise2026/
+dmoney-newman-2026-practise/
 ├── collection/
 │   └── dmoney-2026-postman-collection-part2   # Exported Postman collection (JSON)
 ├── Reports/                                   # HTML report is created here (git-ignored)
@@ -94,4 +94,11 @@ The collection stores its settings in **collection variables**. Change them in P
 > **Note:** The API server must be running before you start the tests, or every request will fail.
 
 ## Report
-<img width="722" height="733" alt="report" src="https://github.com/user-attachments/assets/08615905-f3d1-4faf-a44d-475eab5f05e9" />
+
+A sample HTML report from a Newman run:
+
+<img width="722" alt="Newman htmlextra report" src="https://github.com/user-attachments/assets/08615905-f3d1-4faf-a44d-475eab5f05e9" />
+
+
+## Documentation
+https://documenter.getpostman.com/view/18178069/2sBYB4KSHJ
